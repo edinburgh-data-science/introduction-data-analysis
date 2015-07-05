@@ -29,7 +29,7 @@ The tools in this book are of little use if you can’t easily import and export
 Much of the programming work in data analysis and modeling is spent on data preparation: loading, cleaning, transforming, and rearranging. The pandas librart along with the Python standard library provide you with a high-level, flexible, and high-performance set of core manipulations and algorithms to enable you to wrangle data into the right form without much trouble.
 
 ### Week 7: Plotting and visualization
-Making plots and static or interactive visualizations is one of the most important tasks in data analysis. This chapter is quite dated and probably needs to be skipped. Instead we will briefky cover the basics of Matplotlib and instead spend most of our time  on the next generate of Python data visualization tools:
+Making plots and static or interactive visualizations is one of the most important tasks in data analysis. This chapter is quite dated and probably needs to be skipped. Instead we will briefly cover the basics of [Matplotlib](http://matplotlib.org/) and instead spend most of our time  on the next generate of Python data visualization tools:
 
  * [plot.ly](https://plot.ly/)
  * [ggplot](http://ggplot.yhathq.com/)
@@ -38,7 +38,9 @@ Making plots and static or interactive visualizations is one of the most importa
  * [mpld3](http://mpld3.github.io/)
 
 ### Week 8: Data aggregation and group operations
+Categorizing a data set and applying a function to each group, whether an aggregation or transformation, is often a critical component of a data analysis workflow. After loading, merging, and preparing a data set, a familiar task is to compute group statistics or possibly pivot tables for reporting or visualization purposes. pandas provides a flex- ible and high-performance groupby facility, enabling you to slice and dice, and sum- marize data sets in a natural way.
 
 ### Week 9: Time series
+The pandas library provides a standard set of time series tools and data algorithms. With this, you can efficiently work with very large time series and easily slice and dice, aggregate, and resample irregular and fixed frequency time series. As you might guess, many of these tools are especially useful for financial and economics applications
 
 ### Week 10: Financial and Economic data applications
