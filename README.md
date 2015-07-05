@@ -29,6 +29,13 @@ The tools in this book are of little use if you can’t easily import and export
 Much of the programming work in data analysis and modeling is spent on data preparation: loading, cleaning, transforming, and rearranging. The pandas librart along with the Python standard library provide you with a high-level, flexible, and high-performance set of core manipulations and algorithms to enable you to wrangle data into the right form without much trouble.
 
 ### Week 7: Plotting and visualization
+Making plots and static or interactive visualizations is one of the most important tasks in data analysis. This chapter is quite dated and probably needs to be skipped. Instead we will briefky cover the basics of Matplotlib and instead spend most of our time  on the next generate of Python data visualization tools:
+
+ * [plot.ly](https://plot.ly/)
+ * [ggplot](http://ggplot.yhathq.com/)
+ * [seaborn](http://stanford.edu/~mwaskom/software/seaborn/)
+ * [bokeh](http://bokeh.pydata.org/en/latest/)
+ * [mpld3](http://mpld3.github.io/)
 
 ### Week 8: Data aggregation and group operations
 
