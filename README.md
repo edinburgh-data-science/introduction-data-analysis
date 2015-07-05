@@ -1,26 +1,36 @@
 # Python for Data Analysis
 
-This course would build on the first-year *Foundations of Data Science* course and teach students data analysis skills using Python and pandas.
+This course would build on the first-year *Foundations of Data Science* course and teach students data analysis skills using Python and [pandas](http://pandas.pydata.org/). Students would be expected to bring their own computers to class. Ideally I would like to have a ["flipped classroom"](https://en.wikipedia.org/wiki/Flipped_classroom): I would assign readings, video lectures, and problem sets for students to cover on their own outside of class; lectures meanwhile would focus entirely on practical applications.
+
+While *R* is currently the more widely used language for data analysis...
 
 ![Python vs R data analysis jobs](http://www.indeed.com/trendgraph/jobgraph.png?q=python+and+%22data+analysis%22%2C+R+and+%22data+analysis%22)
 
+...Python is quickly gaining ground!
+
 ![Python vs R data analysis jobs growth](http://www.indeed.com/trendgraph/jobgraph.png?q=python+and+%22data+analysis%22%2C+R+and+%22data+analysis%22&relative=1)
-
-Students would be expected to bring their own computers to class. Ideally I would like to have a ["flipped classroom"](https://en.wikipedia.org/wiki/Flipped_classroom): I would assign readings, video lectures, and problem sets for students to cover on their own outside of class; lectures meanwhile would focus entirely on practical applications.
-
 
 ## Course syllabus
 Course text will be [*Python for Data Analysis*](http://shop.oreilly.com/product/0636920023784.do). Book is getting a bit dated so I will supplement as necessary.
 
 ### Week 1: Introductory examples
+This course teaches you the Python tools to work productively with data. Data analysis tasks generally fall into a number of different broad groups:
+
+* Interacting with the outside world: reading and writing with a variety of file formats and databases.
+* Preparation: cleaning, munging, combining, normalizing, reshaping, slicing and dicing data for analysis.
+* Transformation: applying mathematical and statistical operations to groups of data sets to derive new data sets. For example, aggregating a large table by group variables.
+* Modeling and computation: connecting your data to statistical models, machine learning algorithms, or other computational tools.
+* Presentation: creating interactive or static graphical visualizations or textual summaries.
+
+This week I will show you a few data sets and some things we can do with them. These examples are just intended to pique your interest and thus will only be explained at a high level. 
 
 ### Week 2: IPython
 
 ### Week 3: NumPy
-NumPy, short for Numerical Python, is the fundamental package required for high performance scientific computing and data analysis. It is the foundation on which nearly all of the higher-level Python data analysis tools are built. 
+[NumPy](http://www.numpy.org/), short for Numerical Python, is the fundamental package required for high performance scientific computing and data analysis. It is the foundation on which nearly all of the higher-level Python data analysis tools are built. 
 
 ### Week 4: Getting started with pandas
-The pandas library will be the primary library of interest throughout much of the course. It contains high-level data structures and manipulation tools designed to make data analysis fast and easy in Python.
+The [pandas](http://pandas.pydata.org/) library will be the primary library of interest throughout much of the course. It contains high-level data structures and manipulation tools designed to make data analysis fast and easy in Python.
 
 ### Week 5: Data loading, storage, and file formats
 The tools in this book are of little use if you can’t easily import and export data in Python. I’m going to be focused on input and output with pandas objects, though there are of course numerous tools in other libraries to aid in this process. Input and output typically falls into a few main categories: reading text files and other more efficient on-disk formats, loading data from databases, and interacting with net- work sources like web APIs.  We will cover each in turn.
